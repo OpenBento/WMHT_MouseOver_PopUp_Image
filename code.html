@@ -1,0 +1,21 @@
+<style>
+    span.dropt {color: #50A6C2; font-size: 14px;}
+span.dropt:hover {text-decoration: none; z-index: 6; }
+span.dropt span {position: absolute; left: -9999px;
+  margin: 20px 0 0 0px; padding: 3px 3px 3px 3px;
+  border-style:solid; border-color:black; border-width:1px; z-index: 6;}
+span.dropt:hover span {left: 2%;} 
+span.dropt span {position: absolute; left: -9999px;
+  margin: 4px 0 0 0px; padding: 3px 3px 3px 3px; 
+  border-style:solid; border-color:black; border-width:1px;}
+span.dropt:hover span {margin: 20px 0 0 170px; z-index:6;} 
+</style>
+
+
+<div class="text-plugin clearfix">
+    <p><span class="dropt"><strong>{{text_title}}</strong>
+        <span><img src="{{image}}"/>
+  </span>
+</span></p>
+    <p>{{text_description}}</p>
+</div>
